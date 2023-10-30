@@ -1,0 +1,25 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  // box-sizing: border-box;
+  width: 100vw;
+  min-height: 100vh;
+
+  background-image: url("./assets/blur-bg.jpg");
+  background-size: cover; /* Optional: Adjust the background size */
+  background-repeat: no-repeat; /* Optional: Prevent the image from repeating */
+  font-family: Inter ;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+  // display: none;
+  position: absolute;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.125);
+  border-radius: 1rem;
+}
